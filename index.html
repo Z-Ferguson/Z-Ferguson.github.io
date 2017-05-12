@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,9 +10,23 @@
     <meta name="author" content="">
 
     <title>Zachary Ferguson - Developer</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
 
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
@@ -33,7 +45,7 @@
                 <a class="navbar-brand page-scroll" href="mailto:zfergusonn@gmail.com">
                     <i class="fa fa-envelope-o fa-fw"></i>
                 </a>
-                <a class="navbar-brand page-scroll" href="https://github.com/Z-Ferguson">
+                <a class="navbar-brand page-scroll" href="https://github.com/Z-ferguson">
                     <i class="fa fa-github fa-fw"></i>
                 </a>
                 <a class="navbar-brand page-scroll" href="https://www.linkedin.com/in/zachferguson">
@@ -41,13 +53,12 @@
                 </a>
             </div>
 
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a href="#page-top">ZF</a>
+                        <a href="#page-top"></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -96,6 +107,7 @@
     </section>
 
     <!-- Skills -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
     <section id="skills" class="services bg-primary">
         <div class="container">
             <div class="row text-center">
@@ -123,42 +135,54 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href=" <-- link to github for project 1--> ">
-                                    <img class="img-portfolio img-responsive" src=" <-- insert image of app 2 --> ">
+                                <a href="https://github.com/DiaBeatThis/final_project">
+                                    <img class="img-portfolio img-responsive" src="img/diaBEATthis.png">
                                 </a>
                                 <div class="portfolio-caption">
-                                    <h4>Name of app#1</h4>
+                                    <h4>DiaBEATthis</h4>
                                     <p>
-                                      Backend and Front-end <br>
-                                      Engineering
+                                      Backend and Front-end<br>
+                                      Engineering<br>
+									  <a href="http://diabeatthis.herokuapp.com/">LIVE DEMO</a>
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="<-- link to github for project 2-->">
-                                    <img class="img-portfolio img-responsive" src=" <-- insert image of app 2 --> ">
+                                <a href="https://github.com/teamDead/dead_story">
+                                    <img class="img-portfolio img-responsive" src="img/deadStory.png">
                                 </a>
                                 <div class="portfolio-caption">
-                                    <h4>Name of app#2</h4>
+                                    <h4>Dead Game </h4>
                                     <p>
                                       Backend Engineering<br>
-                                      <a href=" <-- heroku link to app 2 -->">LIVE DEMO</a>
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href=" <-- link to github for project 3--> ">
-                                    <img class=" <-- insert image of app 3--> ">
+                                <a href="https://github.com/Z-Ferguson/starwars-swapi">
+                                    <img class="img-portfolio img-responsive" src="img/Swapi.png">
                                 </a>
                                 <div class="portfolio-caption">
-                                    <h4>Name of app #3</h4>
+                                    <h4>Star Wars Api </h4>
                                     <p>
-                                      languages used: <br>
-                                      <a href=" <-- heroku link to app 3 --> ">LIVE DEMO</a>
+                                      Python + JavaScript<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+						<div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="https://github.com/Z-Ferguson/express-yourself">
+                                    <img class="img-portfolio img-responsive" src="img/regexImg.png">
+                                </a>
+                                <div class="portfolio-caption">
+                                    <h4>Express Yourself</h4>
+                                    <p>
+                                      Understanding RegEx<br>
                                     </p>
                                 </div>
                             </div>
@@ -179,8 +203,8 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3>Resume</h3>
-                    <a href=" <!-- add .pdf of resume -->// " class="btn btn-lg btn-dark" download>Download</a>
-                    <a href=" <!-- add .pdf of resume -->// " class="btn btn-lg btn-dark" target="_blank">View</a>
+                    <a href="img/ZachFergusonResume.pdf" class="btn btn-lg btn-dark" download>Download</a>
+                    <a href="img/ZachFergusonResume.pdf" class="btn btn-lg btn-dark" target="_blank">View</a>
                 </div>
             </div>
         </div>
@@ -195,8 +219,8 @@
                     </h4>
                     <p>Durham, NC</p>
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i>910-884-8422</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="zfergusonn@gmail.com">zfergusonn@gmail.com</a>
+                        <li><i class="fa fa-phone fa-fw"></i> (910) 884-8422</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:zfergusonn@gmail.com">zfergusonn@gmail.com</a>
                         </li>
                     </ul>
                     <br>
@@ -217,13 +241,54 @@
         </div>
     </footer>
 
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    $(window).on('scroll', function() {
+        if ($("li.active").find('a')[0].text == "Portfolio") {
+            console.log('hit')
+            $('.navbar-custom').addClass('in-portfolio');
+            $('.navbar-toggle').addClass('in-portfolio');
+        } else {
+            $('.navbar-custom').removeClass('in-portfolio');
+            $('.navbar-toggle').removeClass('in-portfolio');
+        }
+    })
+    </script>
+
 </body>
 
 </html>
